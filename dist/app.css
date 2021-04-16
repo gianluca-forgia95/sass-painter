@@ -20,6 +20,9 @@ h1 {
   display: flex;
   align-items: center;
 }
+.box.box-reverse {
+  flex-direction: row-reverse;
+}
 
 .box-img {
   width: 60%;
@@ -31,6 +34,7 @@ h1 {
 
 .box-test {
   width: 40%;
+  padding: 50px;
 }
 
 .hero {

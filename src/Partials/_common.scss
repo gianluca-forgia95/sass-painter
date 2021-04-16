@@ -17,7 +17,12 @@ h1 {
 .box {
 display: flex;
 align-items: center;
+ &.box-reverse {
+     flex-direction: row-reverse;
+ }  
 }
+
+
 .box-img {
 width: $box-img-width;
 padding: $box-padding;
@@ -27,4 +32,5 @@ padding: $box-padding;
 }
 .box-test {
 width: $box-test-width;
+padding: $box-padding;
 }
