@@ -1,1 +1,10 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
 
+.hero {
+  background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
