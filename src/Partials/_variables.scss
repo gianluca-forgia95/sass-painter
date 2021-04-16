@@ -1,5 +1,5 @@
 //Colors
-$btn-color: #1473e6;
+$primary-color: #1473e6;
 $btn-text: #fff;
 
 //Containers Width
@@ -10,6 +10,7 @@ $container-margin: 0 auto;
 // Spacing
 $btn-padding: 15px;
 $btn-margin: 15px;
+$nav-padding: 30px 20px;
 
 
 //Border Radius Elements 
@@ -19,3 +20,20 @@ $btn-border-radius: 20px;
 $box-img-width: 60%;
 $box-test-width: 40%;
 $box-padding: 50px;
+
+//mixin 
+@mixin displayNav {
+display: flex;
+justify-content: space-between;
+align-items: center;  
+}
+
+@mixin listFlex {
+display: flex;
+align-items: center;
+list-style: none;
+ li a {
+    margin: 11px;
+    text-decoration: none;
+ }
+}

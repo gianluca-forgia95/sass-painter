@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Noto Sans JP", sans-serif;
 }
@@ -53,6 +59,33 @@ h1 {
   max-width: 50px;
 }
 
+.logo-nav img {
+  max-width: 90px;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.main-nav-list ul, .login ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.main-nav-list ul li a, .login ul li a {
+  margin: 11px;
+  text-decoration: none;
+}
+.main-nav-list ul li a, .login ul li a {
+  color: black;
+}
+.main-nav-list ul li a:hover, .login ul li a:hover {
+  color: #1473e6;
+}
+
 .btn {
   background-color: #1473e6;
   padding: 15px;
@@ -62,6 +95,9 @@ h1 {
   font-weight: bold;
   border: none;
   cursor: pointer;
+}
+.btn:hover {
+  background: #002266;
 }
 .btn.btn-transparent {
   background: none;

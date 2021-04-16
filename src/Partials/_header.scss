@@ -12,4 +12,20 @@ align-items: center;
 .logo img {
 max-width: 50px;
 }
+.logo-nav img {
+max-width: 90px;
+}
+.nav-header {
+@include displayNav;
+padding: $nav-padding;
+}
 
+.main-nav-list ul , .login ul {
+ @include listFlex;
+ li a {
+    color: black;
+     &:hover {
+        color: $primary-color;
+     }
+ }
+}
