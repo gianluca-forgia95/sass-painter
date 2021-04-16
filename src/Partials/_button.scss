@@ -1,0 +1,14 @@
+.btn {
+background-color: $btn-color;
+padding: $btn-padding;
+color: $btn-text;
+border-radius: $btn-border-radius;
+margin: $btn-margin;
+font-weight: bold;
+border: none;
+cursor: pointer;
+ &.btn-transparent {
+    background: none;
+    border: 2px solid #fff;
+ }
+}

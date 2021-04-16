@@ -3,4 +3,13 @@ background-image: url('https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-ma
 background-size: cover;
 background-repeat: no-repeat;
 height: 600px;
+display: flex;
+align-items: center;
+ > h1, h4 {
+    color: #fff;
+ }
 }
+.logo img {
+max-width: 50px;
+}
+

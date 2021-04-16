@@ -2,9 +2,42 @@ body {
   font-family: "Noto Sans JP", sans-serif;
 }
 
+h1 {
+  color: #fff;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
 .hero {
   background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
   background-size: cover;
   background-repeat: no-repeat;
   height: 600px;
+  display: flex;
+  align-items: center;
+}
+.hero > h1, .hero h4 {
+  color: #fff;
+}
+
+.logo img {
+  max-width: 50px;
+}
+
+.btn {
+  background-color: #1473e6;
+  padding: 15px;
+  color: #fff;
+  border-radius: 20px;
+  margin: 15px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.btn.btn-transparent {
+  background: none;
+  border: 2px solid #fff;
 }
