@@ -17,4 +17,7 @@
     .box-test {
     width: $box-test-width;
     padding: $box-padding;
+     h2 {
+      padding: $title-padding;
+     }
     }
