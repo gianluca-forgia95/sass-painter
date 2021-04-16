@@ -22,43 +22,6 @@ h1 {
   padding: 50px 0;
 }
 
-.box {
-  display: flex;
-  align-items: center;
-}
-.box.box-reverse {
-  flex-direction: row-reverse;
-}
-
-.box-img {
-  width: 60%;
-  padding: 50px;
-}
-.box-img img {
-  width: 100%;
-}
-
-.box-test {
-  width: 40%;
-  padding: 50px;
-}
-
-.hero {
-  background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 600px;
-  display: flex;
-  align-items: center;
-}
-.hero > h1, .hero h4 {
-  color: #fff;
-}
-
-.logo img {
-  max-width: 50px;
-}
-
 .logo-nav img {
   max-width: 90px;
 }
@@ -106,4 +69,41 @@ h1 {
 .btn.btn-transparent:hover {
   background: #fff;
   color: black;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}
+.box.box-reverse {
+  flex-direction: row-reverse;
+}
+
+.box-img {
+  width: 60%;
+  padding: 50px;
+}
+.box-img img {
+  width: 100%;
+}
+
+.box-test {
+  width: 40%;
+  padding: 50px;
+}
+
+.hero {
+  background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+.hero > h1, .hero h4 {
+  color: #fff;
+}
+
+.logo img {
+  max-width: 50px;
 }
