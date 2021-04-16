@@ -7,4 +7,24 @@ h1 {
 .container {
  width: $container-standard;
  margin: $container-margin;
+  &.container-sm {
+    width: $container-small;
+    text-align: center;
+    padding: 50px 0;
+  }
+}
+
+.box {
+display: flex;
+align-items: center;
+}
+.box-img {
+width: $box-img-width;
+padding: $box-padding;
+ img {
+     width: 100%;
+ }
+}
+.box-test {
+width: $box-test-width;
 }

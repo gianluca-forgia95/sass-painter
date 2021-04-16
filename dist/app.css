@@ -10,6 +10,28 @@ h1 {
   width: 1024px;
   margin: 0 auto;
 }
+.container.container-sm {
+  width: 800px;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.box-img {
+  width: 60%;
+  padding: 50px;
+}
+.box-img img {
+  width: 100%;
+}
+
+.box-test {
+  width: 40%;
+}
 
 .hero {
   background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
@@ -40,4 +62,8 @@ h1 {
 .btn.btn-transparent {
   background: none;
   border: 2px solid #fff;
+}
+.btn.btn-transparent:hover {
+  background: #fff;
+  color: black;
 }
